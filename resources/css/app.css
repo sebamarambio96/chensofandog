@@ -5,7 +5,7 @@ html, body {
   color: black;
   font-family: 'Hubballi', cursive;
   font-weight: bold; 
-{
+}
 
 /** navbar **/
 .nav-link:hover {
@@ -85,7 +85,7 @@ footer {
   color: white !important; 
   opacity: 0.8;
 }
-  
+
 .sections > section { 
   padding-top: 75px;
   height: 100vh;

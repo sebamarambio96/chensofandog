@@ -75,24 +75,24 @@
        </div>  
   </div>     
   
-    <section class="socials" id="socials">
+    <section class="socials d-sm-flex d-inline align-items-center justify-content-center" id="socials">
 
       <a class="btn btn-link btn-floating btn-lg text-white mb-0"href="https://www.facebook.com/chainsawman.en/" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-facebook-f"></i></a>
 
-      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0" href="https://www.instagram.com/chainsaw_en/?hl=en" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0 px-sm-2" href="https://www.instagram.com/chainsaw_en/?hl=en" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-instagram"></i></a>
 
-      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0" href="https://twitter.com/chainsaw_en?lang=en" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0 px-sm-2" href="https://twitter.com/chainsaw_en?lang=en" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-twitter"></i></a>
 
-      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0" href="https://www.tiktok.com/@chainsawman_pr" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0 px-sm-2" href="https://www.tiktok.com/@chainsawman_pr" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-tiktok"></i></a>
 
-      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0" href="https://play.google.com/store/books/series?id=kgwsGwAAABC_FM" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0 px-sm-2" href="https://play.google.com/store/books/series?id=kgwsGwAAABC_FM" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-google"></i></a>
 
-      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0" href="https://www.linkedin.com/in/chainsaw-man-merchandise-shop-84b9b7211/" role="button" data-mdb-ripple-color="dark">
+      <a class="btn btn-link btn-floating btn-lg text-white m-1 mb-0 px-sm-2" href="https://www.linkedin.com/in/chainsaw-man-merchandise-shop-84b9b7211/" role="button" data-mdb-ripple-color="dark">
       <i class="fab fa-linkedin"></i></a>
     </section>
         
