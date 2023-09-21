@@ -29,19 +29,33 @@
     </div>
   </div>
 
+<div class="enzo" id="endzo">  
 <i class="fa fa-lg fa-link me-5 text-danger text-nowrap" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Drag Me Into Your Bookmarks Bar!">
 <a class='h6 text-decoration-none text-danger fw-bold opacity-75' href='/');' id="dawg">Chensofandog</a></i>
+</div>
 
 </nav>
 
-<style>
+<style> 
+#endzo {
+    margin-left: auto; 
+    margin-right: 0; 
+  }
+
+@media only screen and (max-width: 1200px) {
+  #endzo { 
+    position: relative;
+    top: -120%; 
+  }
+} 
+
 .tooltip-inner {
     max-width: 150px;
     width: 150px; 
     background-color: #DFFF00; 
     color: orange; 
 }
-</style> 
+</style>  
 
 <script>
 document.getElementById("logoclk").onclick = function() {

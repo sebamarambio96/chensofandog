@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css2?family=Hubballi&display=swap') }}">
 <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css') }}">
+<link rel="stylesheet" href="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 
 <script type="text/javascript" src="{{ asset('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js') }}"></script>  
