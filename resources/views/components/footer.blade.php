@@ -51,9 +51,9 @@
 
   <div class="_power d-none" id="pow">
   
-    <div class="container lefty text-danger">
-       <div class="techno float-start mt-3">
-          <div class="row">
+    <div class="container-fluid lefty ps-5 text-danger">
+       <div class="techno float-start ps-5 mt-3">
+          <div class="row ps-5">
             <div class="col"> 
            <div class="text-center">Technology Used: </div>
            <a class="text-white" href="https://laravel.com/">&nbsp;Laravel PHP Framework</a><br>
@@ -63,9 +63,9 @@
        </div>
     </div>
   
-    <div class="container righty text-danger">
-       <div class="techno float-end mt-3">
-          <div class="row">
+    <div class="container-fluid pe-5 righty text-danger">
+       <div class="techno float-end pe-5 mt-3">
+          <div class="row pe-5">
             <div class="col"> 
                <div class="text-center">Legal Jargon: </div>
                 <a class="text-white" href="/" data-bs-toggle="modal" data-bs-target="#legal-1">&nbsp; Terms & Conditions | Disclaimers</a><br>
@@ -141,6 +141,15 @@
 <style>
 #break {
   margin-right: -60px !important;
+}
+
+@media only screen and (max-width: 1200px){
+  .modal-dialog {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  } 
 }
 </style>
   

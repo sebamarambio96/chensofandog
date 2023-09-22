@@ -32,7 +32,7 @@
 <div class="enzo" id="endzo">  
 <i class="fa fa-lg fa-link me-5 text-danger text-nowrap" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Drag Me Into Your Bookmarks Bar!">
 <a class='h6 text-decoration-none text-danger fw-bold opacity-75' href='/');' id="dawg">Chensofandog</a></i>
-</div>
+</div> 
 
 </nav>
 

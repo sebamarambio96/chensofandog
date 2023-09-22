@@ -86,6 +86,10 @@ footer {
   opacity: 0.8;
 }
 
+.sections {
+  height: 100% !important;
+}
+
 .sections > section { 
   padding-top: 75px;
   height: 100vh;
