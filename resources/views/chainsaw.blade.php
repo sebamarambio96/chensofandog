@@ -11,7 +11,7 @@
 <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script> 
 
 </head>
-<body class="container-fluid" style="margin: 0px; padding: 0px; height: 100vh; width: 100vw; overflow-x: hidden;">
+<body class="container-fluid" style="margin: 0px; padding: 0px; height: 100vh; width: 100vw; overflow-x: hidden; overflow-y: hidden;">
 
 <x-navbar>
 </x-navbar>

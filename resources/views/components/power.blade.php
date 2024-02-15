@@ -1,7 +1,7 @@
 <section id="powerz">
   <div class="container-fluid text-center">
   <h6 class="text-center" id="sect-title"">Power's Picks</h6>
- 
+
    <div class="container text-center mt-4">
       <div class="row row-cols-2 justify-content-around">
 
@@ -12,71 +12,35 @@
         <div class="col" style="margin-left: -150px;">
            <ul class="image-list-small">
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">In the subway</a></h3>
-        <p class="image-author">Matt Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/power/6445641e2f1632904e0721ac11898042.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Industrial</a></h3>
-        <p class="image-author">Earnest Leming</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/power/dfn6x9k-3dc1ff6a-cb7d-4fac-9170-936da0385124.png'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-      <!-- <div class="details">
-        <h3><a href="#">When in Rome..</a></h3>
-        <p class="image-author">Edward Flint</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/power/power___chainsaw_man_by_a1nime_dg172rv-fullview.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/power/Power_13x19_2ccd9d10-8dd6-42c8-811b-b142e3dba45b.webp'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+       <a style="background-image: url('/images/gallery/power/axadir_un_txtulo_x37x.jpg_423682103.webp'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
-    </li>
-  <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/power/power_render___chainsaw_man___by_hellhound0101_dekbyub-fullview.png'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/power/power-pfp-3455.png'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/power/Power.600.3032005.jpg'); background-size: 100% 100%;"></a>  
+    </li>
+    <li>
+      <a style="background-image: url('/images/gallery/power/power_com.jpg'); background-size: 100% 100%;"></a> 
     </li>
    </ul>
         </div>
-      
+
       </div>
     </div> 
 

@@ -1,22 +1,26 @@
 <section style="height: auto;" id="frames"> 
 
 <div class="container" id="framed">
-      <div class="sidebar">
+      <div class="sidebar">  
         <div style="background: linear-gradient(229.99deg, #11dee9 -26%, #017e8b 145%);">
+          <h5>早川アキ</h5>
           <h1>Hayakawa Aki</h1>
         </div>
         <div style="background: linear-gradient(215.32deg, #f90306 -1%, #9e0706 124%);">
+          <h5>マキマ</h5> 
           <h1>Makima</h1>
         </div>
-        <div style="background: linear-gradient(221.87deg, #e499e3 1%, #e4509f 128%);">
+        <div style="background: linear-gradient(221.87deg, #e499e3 1%, #e4509f 128%);"> 
+          <h5>パワ</h5> 
           <h1>Pawā</h1>
         </div>
         <div style="background: linear-gradient(220.16deg, #ffe101 -8%, #f39102 138%);">
-          <h1>Denji</h1>
-         
+          <h5>デンジ</h5> 
+          <h1>Denji</h1>        
         </div>
-      </div>
-      <div class="main-slide">
+      </div> 
+
+      <div class="main-slide"> 
         <div style="background-image: url('{{asset('/images/frm_denji.jpg')}}');">
        </div>
         <div style="background-image: url('{{asset('/images/frm_power.png')}}');">
@@ -28,10 +32,10 @@
       </div>
       <div class="controls">
         <button class="down-button">
-          <i class="fas fa-arrow-down"></i>
+          <i class="fas fa-arrow-down" style="color: black;"></i>
         </button>
         <button class="up-button">
-          <i class="fas fa-arrow-up"></i>
+          <i class="fas fa-arrow-up" style="color: black;"></i>
         </button>
       </div>
     </div>
@@ -65,8 +69,16 @@
   color: #fff;
 }
 
+.sidebar h5 {
+  font-size: 23px;
+  font-style: italic;
+  padding-bottom: 200px;
+}
+
 .sidebar h1 {
-  font-size: 40px;
+  position: absolute;
+  font-size: 35px;
+  font-style: italic;
   margin-bottom: 10px;
   margin-top: -30px;
 }
@@ -86,6 +98,10 @@
   background-position: center center;
   height: 100%;
   width: 100%;
+}
+
+.controls {
+  opacity: 0.3;
 }
 
 button {

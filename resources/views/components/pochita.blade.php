@@ -1,7 +1,7 @@
 <?php 
-  $quotes = array('Kevin', 'Jeremy', 'Sara'); 
+  $quotes = array('This is a contract. I’ll be your heart. In exchange… Show me your dreams.', 'Everyone’s got their own dreams. There’s nothing wrong with that. But if you are gonna get in our way, then fvck off.', 'If there’s a devil that’ll be my friend, then I will take it ’cause I never had any.', 'I’ve decided if I sleep tonight, I’m gonna dream about eating bread with jam smothered all over it with you, Pochita.', 'All devils are born bearing a name. As that name becomes feared, the devil itself increases in power.'); 
   $randoq = $quotes[array_rand($quotes)]; 
-?> 
+?>
 
 <section id="pochita">
   <div class="container-fluid text-center">
@@ -12,81 +12,46 @@
 
       <div class="col mt-5" id="gregg"> 
          <button id="popovitch" class="btn bg-transparent border-0  float-start" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-placement="left" data-bs-content="<?=$randoq?>">
-        <img src="{{asset('/images/imgsrc/pochita_img.png')}}" class="rounded float-start mt-3 ms-5" id="plcdd">
+        <img src="{{asset('/images/imgsrc/pochita_img.png')}}" class="rounded float-start mt-3" id="plcdd">
          </button> 
       </div>
 
         <div class="col" style="margin-left: -150px;">
            <ul class="image-list-small">
-    <li>
-     <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">In the subway</a></h3>
-        <p class="image-author">Matt Stone</p>
-      </div> -->
+    <li> 
+      <a id="galimg" style="background-image: url('/images/gallery/pochita/CSMDenji_13x19_Smartpress-20221114_070320932.webp'); 
+background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Industrial</a></h3>
-        <p class="image-author">Earnest Leming</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/1-pochita-nguyen-hai.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-      <!-- <div class="details">
-        <h3><a href="#">When in Rome..</a></h3>
-        <p class="image-author">Edward Flint</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/67f91b80110b9ee6db4be6edea055dd9.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/pochita/d916a6422849df6f6570285a2825be6b_4a733d7374625e68b1788c8f7610584b.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/HD-wallpaper-anime-chainsaw-man-denji-chainsaw-man-pochita-chainsaw.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/d7657ae03492393c67bf7e4ed7eab46c.jpg'); background-size: 100% 100%;"></a> 
     </li>
   <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/pochita/valentina-ivanescu-img-1545.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/pochita-min.jpg'); background-size: 100% 100%;"></a>  
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/pochita/artworks-AYW8wJEmrytUsbHi-kcArdQ-t500x500.jpg'); background-size: 100% 100%;"></a> 
     </li>
    </ul>
         </div>
-      
+
       </div>
     </div> 
-     
+
   </div>
 </section>
 
@@ -97,7 +62,7 @@
 
 #plcdd {
   height: 18.75rem; 
-  padding-left: -10px; 
+  padding-left: 50px; 
   pointer-events:none;
 }
 
@@ -119,9 +84,8 @@
   display: block;
   text-decoration: none;
   background: lightgray; 
-  background-repeat: no-repeat; 
-  background-size: cover;
-  height: 137px; 
+  background-repeat: no-repeat;
+  height: 137px;
   margin: 0;
   padding: 0;
   border: 1px solid #ffffff;
@@ -159,7 +123,9 @@
   opacity:0.2;
 }
 .image-list-small a:hover {
+  height: 155px; 
   opacity:1;
+  transform: scale(1.4);
 }
 </style>
 
@@ -171,6 +137,6 @@ const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstra
 
 document.getElementById("gregg").addEventListener("mouseleave", function() { 
  $('#popovitch').popover('dispose');
- $('#popovitch').popover({ placement : 'left', trigger: 'hover', content : 'Here it is!' }); 
+ $('#popovitch').popover({ placement : 'left', trigger: 'hover', content : '“Stop that! I am not a corn dog!”' }); 
 });
 </script>

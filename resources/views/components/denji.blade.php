@@ -12,71 +12,35 @@
         <div class="col" style="margin-left: -150px;">
            <ul class="image-list-small">
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">In the subway</a></h3>
-        <p class="image-author">Matt Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/denji_suit.jpg'); background-size: 100% 100%;"></a>
+    </li>
+    <li> 
+      <a style="background-image: url('/images/gallery/denji/be5b7ed80c4e624a51b16e4373e33832282ed850r1-613-631v2_00.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Industrial</a></h3>
-        <p class="image-author">Earnest Leming</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/4effc394b334719453deed16f830a213.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-      <!-- <div class="details">
-        <h3><a href="#">When in Rome..</a></h3>
-        <p class="image-author">Edward Flint</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/Fnkvj1WXoAAw42b.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/denji/denji___chainsaw_man_by_artbyrohan_delnt31-fullview.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/__denji_chainsaw_man_drawn_by_lightsource__sample-86e560263a9672ff5834045438a61f75.jpg'); background-size: 100% 100%;"></a>
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
-    </li>
-  <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Mountain Top</a></h3>
-        <p class="image-author">Rick Alpine</p>
-      </div> --> 
+      <a style="background-image: url('/images/gallery/denji/Mala_uba_Denji_02-original.webp'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Vienna Adventure</a></h3>
-        <p class="image-author">Stacy River</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/dfq0x5d-80ed9f50-e06a-4dd7-81ad-6551987d58f0.jpg'); background-size: 100% 100%;"></a> 
     </li>
     <li>
-      <a href="#" style="background-image: url('https://ionicframework.com/docs/img/demos/thumbnail.svg');"></a>
-     <!-- <div class="details">
-        <h3><a href="#">Magnificent beach</a></h3>
-        <p class="image-author">Frank Stone</p>
-      </div> -->
+      <a style="background-image: url('/images/gallery/denji/denji-chainsaw-man-silhouette-to-harms.jpg'); background-size: 100% 100%;"></a> 
     </li>
    </ul>
         </div>
-      
+
       </div>
     </div> 
 

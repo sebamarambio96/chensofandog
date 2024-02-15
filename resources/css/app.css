@@ -5,7 +5,7 @@ html, body {
   color: black;
   font-family: 'Hubballi', cursive;
   font-weight: bold; 
-}
+{
 
 /** navbar **/
 .nav-link:hover {
@@ -27,23 +27,7 @@ html, body {
     width: 150px; 
     background-color: #DFFF00; 
     color: orange; 
-}
-
-/** carousel **/
-#img_frame {
-  object-fit: contain;
-  height: 80vh; 
-  border: 1px solid black; 
-  opacity: 0.5; 
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
+} 
 
 /** footer **/
 footer {
@@ -51,7 +35,7 @@ footer {
   bottom: 0;
   width: 100vw; 
 }
-  
+
 #topknot a {
   text-decoration: none;
   color: orange !important;
@@ -61,7 +45,7 @@ footer {
 #topknot .dropup > ul > li a {
   color: black !important;  
 }
-  
+
 .lefty a {
   text-decoration: none;
 }
@@ -86,15 +70,11 @@ footer {
   opacity: 0.8;
 }
 
-.sections {
-  height: 100% !important;
-  height: 100vh;
-}
-
 .sections > section { 
   padding-top: 75px;
+  height: 100vh;   
 } 
-  
+
 #copywr a {
   text-decoration: none;
 }
@@ -113,6 +93,7 @@ footer {
 #fujimoto, #pochita, #denji {
   background-color: #FAF9F6;
   opacity: 0.9;  
+
 }
 
 #anime {
@@ -135,7 +116,7 @@ footer {
   margin-top: -60px;
   font-weight: bold; 
 }
-  
+
 .persinfo {
   text-align-last: left;
 }
@@ -168,7 +149,7 @@ footer {
 }
 
 @supports (clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)) or (-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)) {
-      
+
 .td_error_404 {
    color: transparent;
 }
