@@ -1,15 +1,20 @@
-# Dockerfile
-FROM php:8.2-cli
+FROM richarvey/nginx-php-fpm:latest
 
-RUN apt-get update -y && apt-get install -y libmcrypt-dev
+COPY . .
 
-RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-RUN php composer-setup.php --install-dir=/usr/local/bin --version=1.9.1 --filename=composer && php -r "unlink('composer-setup.php');" || php -r "unlink('composer-setup.php');"
+# Image config
+ENV SKIP_COMPOSER 1
+ENV WEBROOT /var/www/html/public
+ENV PHP_ERRORS_STDERR 1
+ENV RUN_SCRIPTS 1
+ENV REAL_IP_HEADER 1
 
-WORKDIR /var/www/html
-COPY . /var/www/html
+# Laravel config
+ENV APP_ENV production
+ENV APP_DEBUG false
+ENV LOG_CHANNEL stderr
 
-RUN composer install
+# Allow composer to run as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
 
-EXPOSE 3100
-CMD php artisan serve --host=0.0.0.0 --port=8000
+CMD ["/start.sh"]
