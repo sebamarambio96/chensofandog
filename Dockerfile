@@ -1,21 +1,20 @@
-FROM composer:2.0 as build
-COPY . /app/
-RUN composer install --prefer-dist --no-dev --optimize-autoloader --no-interaction
+FROM richarvey/nginx-php-fpm:3.1.6
 
-FROM php:8.0-apache-buster as production
+COPY . .
 
-ENV APP_ENV=production
-ENV APP_DEBUG=false
+# Image config
+ENV SKIP_COMPOSER 1
+ENV WEBROOT /var/www/html/public
+ENV PHP_ERRORS_STDERR 1
+ENV RUN_SCRIPTS 1
+ENV REAL_IP_HEADER 1
 
-RUN docker-php-ext-configure opcache --enable-opcache && \
-    docker-php-ext-install pdo pdo_mysql
-COPY docker/php/conf.d/opcache.ini /usr/local/etc/php/conf.d/opcache.ini
+# Laravel config
+ENV APP_ENV production
+ENV APP_DEBUG false
+ENV LOG_CHANNEL stderr
 
-COPY --from=build /app /var/www/html
-COPY docker/000-default.conf /etc/apache2/sites-available/000-default.conf
+# Allow composer to run as root
+ENV COMPOSER_ALLOW_SUPERUSER 1
 
-RUN php artisan config:cache && \
-    php artisan route:cache && \
-    chmod 777 -R /var/www/html/storage/ && \
-    chown -R www-data:www-data /var/www/ && \
-    a2enmod rewrite
+CMD ["/start.sh"]
