@@ -34,10 +34,6 @@ RUN docker-php-ext-install gd
 RUN docker-php-ext-configure bcmath --enable-bcmath
 RUN docker-php-ext-install bcmath
 
-# install mongodb ext
-RUN pecl install mongodb \
-    && docker-php-ext-enable mongodb
-
 # Install composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
