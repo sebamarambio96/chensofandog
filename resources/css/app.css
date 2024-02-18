@@ -4,12 +4,12 @@ html, body {
   background-color: white;
   color: black;
   font-family: 'Hubballi', cursive;
-  font-weight: bold; 
-{
+  font-weight: bold;
+}
 
 /** navbar **/
 .nav-link:hover {
-  color: orange; 
+  color: orange;
   filter: brightness(125%);
   opacity: 0.6;
 }
@@ -24,16 +24,16 @@ html, body {
 
 .tooltip-inner {
     max-width: 150px;
-    width: 150px; 
-    background-color: #DFFF00; 
-    color: orange; 
-} 
+    width: 150px;
+    background-color: #DFFF00;
+    color: orange;
+}
 
 /** footer **/
 footer {
   position: sticky;
   bottom: 0;
-  width: 100vw; 
+  width: 100vw;
 }
 
 #topknot a {
@@ -43,7 +43,7 @@ footer {
 }
 
 #topknot .dropup > ul > li a {
-  color: black !important;  
+  color: black !important;
 }
 
 .lefty a {
@@ -55,25 +55,25 @@ footer {
 }
 
 #socials {
-  height: 50px; 
+  height: 50px;
   padding-top: 15px;
 }
 
 #socials > a {
-  color: orange !important; 
+  color: orange !important;
   filter: brightness(125%);
-  opacity: 0.6; 
+  opacity: 0.6;
 }
 
 #socials > a:hover {
-  color: white !important; 
+  color: white !important;
   opacity: 0.8;
 }
 
-.sections > section { 
+.sections > section {
   padding-top: 75px;
-  height: 100vh;   
-} 
+  height: 100vh;
+}
 
 #copywr a {
   text-decoration: none;
@@ -92,7 +92,7 @@ footer {
 /** content **/
 #fujimoto, #pochita, #denji {
   background-color: #FAF9F6;
-  opacity: 0.9;  
+  opacity: 0.9;
 
 }
 
@@ -114,7 +114,7 @@ footer {
 
 #sect-title {
   margin-top: -60px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .persinfo {
